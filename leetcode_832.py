@@ -49,6 +49,6 @@ class Solution:
                 
                 row[i], row[~i] = row[~i] ^ 1, row[i] ^ 1  ## a, b = b, a
                                                             ## row[~i] = row[len(row) -i -1]
-                                                            ## AND (^) 1, to reverse binary data
+                                                            ## XOR (^) 1, to reverse binary data
                 
         return A
